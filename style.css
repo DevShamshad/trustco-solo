@@ -1,0 +1,170 @@
+<<<<<<< Updated upstream
+=======
+/* Base Rule */
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Urbanist", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+
+p,li,a,label{
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+li{
+    list-style: none;
+    color: var(--font-color);
+}
+
+
+
+/* Color, Theme */
+:root{
+    --main-color: #2f4f7f;
+    --second-color: #f9f9f9;
+    --font-color: #424242;
+    --bg-color: #f9f9f9;
+    --heading-color: #000a19;
+    --hero-heading-color: #070f40;
+    --para-color: #504e4d;
+    --btn-hover-bg-color: #0035e1;
+    --btn-box-shadow: 0 7px 29px 0px rgba(100, 100, 111, 0.2);
+    --footer-bg-color: #201e1e;
+}
+
+
+/* Layout */
+.grid{
+    display: grid;
+}
+
+.grid-two--cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-three--cols{
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid-four--cols{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+/******************* HERO SECTION START ***********************/
+#hero{
+    background-color: hsl(0, 5%, 96%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hero-section{
+    margin: 12rem 0 15rem 0;
+    gap: 0;
+    line-height: 4rem;
+   width: 100rem;
+    grid-template-columns: repeat(1fr 3fr 1fr);
+
+}
+.hero-section-heading{
+    width: 60rem;
+    font-weight: 800;
+    font-size: 4rem;
+    color: var(--hero-heading-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+
+}
+.hero-section-para{
+    width: 60rem;
+    font-size: 2rem;
+    color: var(--para-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.hero-btn{
+    width: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 3rem;
+}
+.hero-btn .btn{
+    background-color: var(--main-color);
+    color: var(--second-color);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.hero-btn .btn1{
+    background-color: var(--bg-color);
+    color: var(--main-color);
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+.hero-btn .btn1 .image{
+width: 3rem;
+height: 3rem;
+border-radius: 50%;
+padding: 1rem;
+position: relative;
+background-color: var(--main-color);
+}
+.hero-btn .btn1 .image .img{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    /* color: var(--bg-color); */
+    color: white;
+    filter: brightness(0) invert(1);
+    fill: white;
+    width: 2rem;
+    height: 2rem;
+    
+
+}
+.hero-btn .btn1 span{
+    font-weight: 600;
+    background-color: var(--bg-color);
+}
+
+/******************* HERO SECTION END ***********************/
+>>>>>>> Stashed changes
