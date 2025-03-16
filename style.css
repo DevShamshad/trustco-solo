@@ -74,6 +74,9 @@ header{
     padding: 3rem 0;
     position: sticky;
 }
+.mobile-header{
+    display: none;
+}
 
 .navbar{
     display: flex;
@@ -189,7 +192,11 @@ li a:hover::after {
 /******************* HEAEDER SECTION END ***********************/
 
 
+/******************* Mobile Responsive Styles For HEADER SECTION START ******************************/
 
+
+
+/******************* Mobile Responsive Styles For HEADER SECTION End ******************************/
 
 
 /******************* HERO SECTION START ***********************/
